@@ -1,8 +1,8 @@
 ---
 name: publish-rust
 description: Bump version and publish Rust crates to crates.io
+disable-model-invocation: true
 ---
-
 Publish the Rust crates (`ahp-types`, `ahp`, `ahp-ws`) to crates.io. These live under `clients/rust/`.
 
 ## Steps

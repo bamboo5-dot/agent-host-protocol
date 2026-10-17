@@ -1,8 +1,8 @@
 ---
 name: update-protocol
 description: Update protocol with changes from the vscode repo
+disable-model-invocation: true
 ---
-
 Relative to this workspace, the actual implementation of this protocol lives in `../vscode/src/vs/platform/agentHost`. Please:
 
 - Review changes to the protocol as defined in that repo (you can look at git history in that folder to find recent changes).
